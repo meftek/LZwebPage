@@ -1,0 +1,27 @@
+body{
+   
+    padding-bottom:15px;
+    background: #FDFDFF;
+}
+.jumbotron img{
+    height:250px;
+}
+
+.jumbotron {
+    background-color: #4156FA;
+    height:250px;
+}
+
+#maincontent {
+    margin-top:-45px;
+}
+
+
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    margin-left: -30px;
+  } 
+}
+
+
