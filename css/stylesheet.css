@@ -2,26 +2,63 @@ body{
    
     padding-bottom:15px;
     background: #FDFDFF;
+    
 }
 .jumbotron img{
     height:250px;
 }
 
 .jumbotron {
-    background-color: #4156FA;
+    background-color: black;
     height:250px;
 }
 
-#maincontent {
-    margin-top:-45px;
+.pbbox{
+    min-height: 150px;
+    padding:15px;
+}
+h4{
+    color: orange;
+}
+#glowna{
+    padding:15px;
+}
+
+footer{
+    background: #8c8c8c;
+    min-height:150px;
+    padding: 15px;
+    margin-bottom: -15px;
+}
+/*.navbar-inverse{
+    background: indigo;
+    color:red;
+    border: none;
+   
 }
 
 
 
-@media (min-width: 768px) {
+/* kolor przycisku aktywnego
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus{
+    color: black;
+    background: lightblue;
+}
+*/
+#maincontent {
+    margin-top:-30px;
+}
+
+
+
+
+
+/*@media (min-width: 768px) {
   .navbar-nav {
     margin-left: -30px;
   } 
 }
-
+*/
 
