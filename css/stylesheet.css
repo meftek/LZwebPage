@@ -1,7 +1,7 @@
 body{
    
     padding-bottom:15px;
-    background: #FDFDFF;
+   background-color:#f9f9f9;
     
 }
 /*.jumbotron img{
@@ -22,7 +22,7 @@ body{
 #cytat{
     padding-top: 10%;
 }
-
+/*baner nakładanie*/
 #maindiv{
     position:relative;
 }
@@ -35,19 +35,37 @@ body{
     top:40%;
     left:35%;
     }
+/*kontakt nakładanie*/
+#mainkontakt{
+    position:relative;
+}
+#firstk{    
+    position:relative;    
+}
+
+#secondk{
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+    position:absolute;
+    top:50%;
+    left:15%;
+    }
 
 #pbbox{
     min-height: 50px;
     padding-left:30px;
+    padding-bottom: 25px;
 }
 #pbbox img{
     width: 100%;
 }
 h4{
-    color: orange;
+    color: #ED9A4C;
 }
 #glowna{
     padding:30px;
+    
 }
 
 /*zmiana koloru czcionki navbar*/
@@ -78,8 +96,9 @@ h4{
 }
 
 footer{
-    background: #8c8c8c;
-    min-height:150px;
+    color:#318392;
+    background: #1b4951;
+    min-height:50px;
     padding: 15px;
     margin-bottom: -15px;
 }
