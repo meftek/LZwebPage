@@ -4,11 +4,11 @@ body{
     background: #FDFDFF;
     
 }
-.jumbotron img{
+/*.jumbotron img{
     max-width: 100%;
     height:auto;
     display: block;
-}
+}*/
 
 .jumbotron {
     background-color: black;
@@ -22,6 +22,19 @@ body{
 #cytat{
     padding-top: 10%;
 }
+
+#maindiv{
+    position:relative;
+}
+#first{    
+    position:relative;    
+}
+
+#second{
+    position:absolute;
+    top:40%;
+    left:35%;
+    }
 
 #pbbox{
     min-height: 50px;
@@ -38,15 +51,29 @@ h4{
 }
 
 /*zmiana koloru czcionki navbar*/
-.navbar-light .navbar-nav > li> a,
+.navbar-light .navbar-nav > li> a{
+    color:white;
+    font-weight: 600;
+}
 .navbar-light .navbar-nav > li> a:hover,
 .navbar-light .navbar-nav > li> a:focus{
-    color: gray;
+    color: white;
+    font-weight: 600;
+    background-color: #08282E;
 }
+/*link active */
+.navbar-light .navbar-nav > .active > a, 
+.navbar-light .navbar-nav > .active > a:hover, 
+.navbar-light .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #1b4951;
+}
+
+
 
 .navbar {
   border-radius: 0 ;
-    opacity: 0.7;
+    opacity: 0.8;
     margin-top: -50px;;
 }
 
@@ -79,7 +106,23 @@ footer{
 
 
 
+@media (min-width: 768px){
+    #second{
+     left:45%;
+        text-align: right;
+    }
+}
 
+@media (max-width: 576px){
+    #second{
+        top: 55%;
+        left: auto;
+    }
+        .jumbotron p{
+            font-size: 22px;
+            font-weight: 400;
+                     }
+    }
 
 /*@media (min-width: 768px) {
   .navbar-nav {
@@ -87,4 +130,31 @@ footer{
   } 
 }
 */
+
+
+/* As hex codes */
+
+.color-primary-0 { color: #4B120C }	/* Main Primary color */
+.color-primary-1 { color: #D2D2D2 }
+.color-primary-2 { color: #ED5B4C }
+.color-primary-3 { color: #020000 }
+.color-primary-4 { color: #000000 }
+
+.color-secondary-1-0 { color: #4B2B0C }	/* Main Secondary color (1) */
+.color-secondary-1-1 { color: #D2D2D2 }
+.color-secondary-1-2 { color: #ED9A4C }
+.color-secondary-1-3 { color: #020100 }
+.color-secondary-1-4 { color: #000000 }
+
+.color-secondary-2-0 { color: #08282E }	/* Main Secondary color (2) */
+.color-secondary-2-1 { color: #818181 }
+.color-secondary-2-2 { color: #318392 }
+.color-secondary-2-3 { color: #000101 }
+.color-secondary-2-4 { color: #000000 }
+
+.color-complement-0 { color: #093914 }	/* Main Complement color */
+.color-complement-1 { color: #9F9F9F }
+.color-complement-2 { color: #39B354 }
+.color-complement-3 { color: #000200 }
+.color-complement-4 { color: #000000 }
 
