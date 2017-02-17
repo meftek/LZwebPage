@@ -51,6 +51,9 @@ body{
     top:50%;
     left:15%;
     }
+p{
+    font-size: 16px;
+}
 
 #pbbox{
     min-height: 50px;
@@ -60,14 +63,27 @@ body{
 #pbbox img{
     width: 100%;
 }
-h4{
+h4,h2{
     color: #ED9A4C;
 }
 #glowna{
-    padding:30px;
+    padding-left:7%;
+    padding-right:7%;
     
 }
+#glowna li{
+    font-size: 16px;
+}
 
+#buttonrejestr{
+    text-align: center;
+}
+#pytania{
+    font-size: 0.8em;
+}
+#glowna div{
+    padding-bottom: 30px;
+}
 /*zmiana koloru czcionki navbar*/
 .navbar-light .navbar-nav > li> a{
     color:white;
