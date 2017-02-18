@@ -19,9 +19,7 @@ body{
     font-size: 30px;;
     
 }
-#cytat{
-    padding-top: 10%;
-}
+
 /*baner nakładanie*/
 #maindiv{
     position:relative;
@@ -34,6 +32,7 @@ body{
     position:absolute;
     top:40%;
     left:35%;
+    
     }
 /*kontakt nakładanie*/
 #mainkontakt{
@@ -103,7 +102,13 @@ h4,h2{
     background-color: #1b4951;
 }
 
-
+#quote{
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+    }
+#authorquote{
+    
+}
 
 .navbar {
   border-radius: 0 ;
@@ -139,24 +144,56 @@ footer{
     margin-top:-30px;
 }
 
-
-
 @media (min-width: 768px){
     #second{
-     left:45%;
+        left:30%;
         text-align: right;
     }
+    #quote{
+        font-size: 35px;
+    }
+    #authorquote{
+        font-size: 20px;
+    }
+    
 }
 
-@media (max-width: 576px){
+
+@media (max-width: 768px){
     #second{
-        top: 55%;
+        top:45%;
+        left:30%;
+        text-align: right;
+    }
+    #quote{
+        font-size: 28px;
+    }
+    #authorquote{
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 575px){
+    #second{
+        top: 60%;
         left: auto;
+        background: rgb(0, 0, 0); /* fallback color */
+        background: rgba(0, 0, 0, 0.7);
+        padding-top:10px;
+        }
+    #authorquote{
+        font-size: 18px;
+        text-align: right;
+        padding-right: 20px;
     }
         .jumbotron p{
             font-size: 22px;
             font-weight: 400;
                      }
+    #quote{
+        font-size: 25px;
+    }
     }
 
 /*@media (min-width: 768px) {
