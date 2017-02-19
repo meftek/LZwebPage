@@ -68,6 +68,7 @@ h4,h2{
 #glowna{
     padding-left:7%;
     padding-right:7%;
+    line-height: 155%;
     
 }
 #glowna li{
@@ -75,6 +76,9 @@ h4,h2{
 }
 
 #buttonrejestr{
+    text-align: justify;
+}
+#buttonrejestr h3{
     text-align: center;
 }
 #pytania{
@@ -121,9 +125,7 @@ h4,h2{
     font-family: 'Kalam', cursive;
     font-size: 40px;
     }
-#authorquote{
-    
-}
+
 
 .navbar {
   border-radius: 0 ;
