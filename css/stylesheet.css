@@ -76,9 +76,7 @@ h4,h2{
 }
 
 #buttonrejestr{
-    text-align: justify;
-}
-#buttonrejestr h3{
+   
     text-align: center;
 }
 #pytania{
@@ -122,8 +120,9 @@ h4,h2{
 
 
 #quote{
-    font-family: 'Kalam', cursive;
-    font-size: 40px;
+    /*font-family: 'Kalam', cursive;*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
     }
 
 
@@ -163,7 +162,7 @@ footer{
 
 @media (min-width: 768px){
     #second{
-        left:30%;
+        left:25%;
         text-align: right;
     }
     #quote{
@@ -183,7 +182,7 @@ footer{
         text-align: right;
     }
     #quote{
-        font-size: 28px;
+        font-size: 25px;
     }
     #authorquote{
         font-size: 20px;
@@ -215,7 +214,7 @@ footer{
             font-weight: 400;
                      }
     #quote{
-        font-size: 25px;
+        font-size: 20px;
     }
     .navbar {
   
